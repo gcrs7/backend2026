@@ -6,24 +6,26 @@
         <title>Document</title>
     </head>
 
-            <body>
-                <h1>Form - 18/03/26</h1>
-                    <form 
-                        method="post" 
-                            action="recebe.php">
-                        Nome<input
-                            type="text" 
-                                id="login" 
-                                    name="login">
-                        <br>
-                        Senha<input
-                            type="password" 
-                                id="senha" 
-                                    name="senha">
-                        <br>
-                        <input 
-                            type="submit" 
-                                value="Entrar no sistema">    
-                    </form>
-            </body>
+    <body>
+        <h1>Form - 18/03/26</h1>
+            
+            <form 
+                method="post" 
+                action="recebe.php">
+                
+                Nome<input
+                    type="text" 
+                    id="login" 
+                    name="login">
+                    <br>
+                Senha<input
+                    type="password" 
+                    id="senha" 
+                    name="senha">
+                    <br>
+                <input 
+                    type="submit" 
+                    value="Entrar no sistema">    
+            </form>
+    </body>
 </html>
