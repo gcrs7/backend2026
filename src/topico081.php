@@ -29,7 +29,7 @@ echo "<pre>";print_r($uf);echo "</pre>";//comando para mostrar todos os valores 
 
 <h3>ARRAY ASSOCIATIVA</h3>
 <?php
-
+//pra achar os dados, sempre vai estar em uma posição de string, não em posição de número
 $estudante=[
     "id"=> 1, //nesse caso o valor não está na posição 0, está na posição "id"
     "ra"=> 123456,
